@@ -1,0 +1,15 @@
+version:  '3'
+
+services:
+  user-service:
+    image: docker.artifactory/rajates/user-service:0.0.1
+    ports:
+      - "8881:8881"
+    deploy:
+      replicas: 1
+  image-service:
+    image: docker.artifactory/rajates/image-service:0.0.1
+    ports:
+      - "8880:8880"
+    deploy:
+      replicas: 1

@@ -1,0 +1,6 @@
+JfrogURI : http://172.17.0.1:80/artifactory/api/docker/docker-local/v2/
+JfrogUsername : admin
+JfrogPassword : P@ssw0rd@123
+JfrogisSecure : true
+JfrogPattern : rajates
+JfrogRepositoryUI : http://172.17.0.1:80/artifactory/ui/artifactgeneral

@@ -1,0 +1,19 @@
+hash: ae2e8004480aa250b496bde1eac2764ea5afb6553978428232a942cabb2408db
+updated: 2018-04-20T10:12:43.925522363+05:30
+imports:
+- name: github.com/docker/docker
+  version: 90d35abf7b3535c1c319c872900fbd76374e521c
+  subpackages:
+  - api/types
+  - cli/command
+  - cliconfig
+  - client
+- name: github.com/gorilla/mux
+  version: 53c1911da2b537f792e7cafcb446b05ffe33b996
+- name: golang.org/x/net
+  version: 4876518f9e71663000c348837735820161a42df7
+  subpackages:
+  - context
+- name: gopkg.in/yaml.v2
+  version: 5420a8b6744d3b0345ab293f6fcba19c978f1183
+testImports: []
